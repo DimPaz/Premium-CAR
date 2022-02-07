@@ -1,0 +1,6 @@
+.rectangle {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
