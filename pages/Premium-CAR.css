@@ -1,3 +1,9 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/rectangle/rectangle.css);
+@import url(../blocks/header/__rectangle/header__rectangle.css);
+
+
+@import url(../blocks/mark/mark.css);
+@import url(../blocks/mark/__rectangle/mark__rectangle.css);
+
+@import url(../blocks/logo/logo.css);

@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./pages/Premium-CAR.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="author" content="Дмитрий Пазухин" />
     <title>Premium-CAR</title>
   </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <div class="rectangle">
-          <div>Premium-CAR</div>
-          <div>5 сылок</div>
-          <img src="./images/icon/Shape.png" alt="поиск">
-        </div>
-      </header>
-    </div>
+  <body class="page">
+    <header class="header">
+      <nav class="header__rectangle">
+        <a class="logo" href="#"
+          >Premium <span class="mark mark__rectangle">CAR</span>
+          <!-- mark__rectangle-->
+        </a>
+        <div>5 сылок</div>
+        <img src="./images/icon/search.svg" alt="поиск" />
+      </nav>
+    </header>
+    <div class="mark__rectangle"></div>
   </body>
 </html>
