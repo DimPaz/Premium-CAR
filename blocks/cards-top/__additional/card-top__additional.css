@@ -1,0 +1,5 @@
+.card-top__additional {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}

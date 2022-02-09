@@ -1,0 +1,11 @@
+.navigation__link {
+  margin-right: 30px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+}

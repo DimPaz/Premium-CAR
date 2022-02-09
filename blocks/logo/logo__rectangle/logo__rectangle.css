@@ -1,0 +1,14 @@
+.logo__rectangle {
+    background-color: #4A90E2;
+    border-radius: 3px;
+    margin-left: 6px;
+    padding: 3px 5px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;  
+    text-transform: uppercase;
+    color: #ffffff;
+}

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <meta name="author" content="Дмитрий Пазухин" />
@@ -17,14 +17,40 @@
   <body class="page">
     <header class="header">
       <nav class="header__rectangle">
-        <a class="logo" href="#"
-          >Premium <span class="mark mark__rectangle">CAR</span>
-          <!-- mark__rectangle-->
+        <a class="logo" href="#">
+          <img
+            class="logo__name"
+            src="./images/logo/Premium.svg"
+            alt="Premium"
+          />
+          <div class="logo__rectangle">car</div>
         </a>
-        <div>5 сылок</div>
-        <img src="./images/icon/search.svg" alt="поиск" />
+        <div class="navigation">
+          <a href="#" class="navigation__link">Home</a>
+          <a href="#" class="navigation__link">Recipes</a>
+          <a href="#" class="navigation__link">Artimle</a>
+          <a href="#" class="navigation__link">Contact</a>
+          <a href="#" class="navigation__link">Purchase</a>
+        </div>
+        <a class="search" href="#"
+          ><img src="./images/icon/search.svg" alt="поиск"
+        /></a>
       </nav>
     </header>
-    <div class="mark__rectangle"></div>
+    <section class="content">
+      <div class="cards-top">
+        <div class="card-top__main">
+          <img src="./images/auto-cards/Bitmap-1.jpg" alt="" />
+        </div>
+        <div class="card-top__additional">
+          <div class="card card-top__card"></div>
+          <div class="card card-top__card"></div>
+          <div class="card card-top__card"></div>
+          <div class="card card-top__card"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="card"></div>
   </body>
 </html>

@@ -1,9 +1,29 @@
 @import url(../blocks/page/page.css);
+
+/* header */
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__rectangle/header__rectangle.css);
 
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/logo__name/logo__name.css);
+@import url(../blocks/logo/logo__rectangle/logo__rectangle.css);
 
 @import url(../blocks/mark/mark.css);
 @import url(../blocks/mark/__rectangle/mark__rectangle.css);
 
-@import url(../blocks/logo/logo.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
+@import url(../blocks/search/search.css);
+
+/* content */
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/card/card.css);
+
+@import url(../blocks/cards-top/cards-top.css);
+@import url(../blocks/cards-top/__main/card-top__main.css);
+@import url(../blocks/cards-top/__additional/card-top__additional.css);
+@import url(../blocks/cards-top/__card/card-top__card.css);
