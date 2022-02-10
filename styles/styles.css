@@ -1,0 +1,108 @@
+.category {
+}
+
+.cards-top__additional {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.card {
+  position: relative;
+}
+
+.card__size {
+  position: relative;
+  width: 370px;
+  height: 560px;
+  margin-top: 30px;
+}
+
+.card__size_additional {
+  height: 265px;
+  margin-left: 30px;
+}
+
+.card__img {
+  border-radius: 5px;
+  width: 370px;
+  height: 560px;
+}
+
+.card__img_additional {
+  height: 265px;
+}
+
+.card__text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 330px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+
+.card__text_additional {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 330px;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+
+.card__text-date {
+  margin: 0;
+  margin-bottom: 6px;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.card__text-date:hover {
+  color: #4a90e2;
+  transition: 0.3s;
+}
+
+.card__text-date_additional {
+}
+
+.card__text-description {
+  margin: 0;
+
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.card__text-description:hover {
+  color: #4a90e2;
+  transition: 0.3s;
+}
+
+.card__text-description_additional {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.card_form {
+  width: 370px;
+  height: 560px;
+}
+
+.none {
+  display: none !important;
+}
+
+/* примеры */

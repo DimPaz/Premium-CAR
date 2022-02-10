@@ -21,9 +21,10 @@
 
 @import url(../blocks/content/content.css);
 
+@import url(../blocks/category/category.css);
+
+
 @import url(../blocks/card/card.css);
 
 @import url(../blocks/cards-top/cards-top.css);
-@import url(../blocks/cards-top/__main/card-top__main.css);
-@import url(../blocks/cards-top/__additional/card-top__additional.css);
-@import url(../blocks/cards-top/__card/card-top__card.css);
+
