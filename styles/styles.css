@@ -1,7 +1,7 @@
-.category {
-}
+/* .category {
+} */
 
-.cards-top__additional {
+/* .cards-top__additional {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -99,10 +99,78 @@
 .card_form {
   width: 370px;
   height: 560px;
-}
+} */
 
 .none {
   display: none !important;
 }
 
 /* примеры */
+
+.cards {
+  margin: 30px;
+  /* box-sizing: border-box;
+  border: 0;
+  border-radius: 5px;
+  width: 370px;
+  height: 560px;
+  overflow: hidden; */
+}
+/* 
+
+.demo__item:first-of-type, .demo__item:nth-of-type(2) {
+  margin-top: 0;
+} */
+.cards__column {
+  display: flex;
+}
+
+.cards__item {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.cards__top {
+  width: 370px;
+  height: 560px;
+  border-radius: 5px;
+  background-color: rgb(183, 196, 216);
+}
+
+.cards__additional {
+  width: 370px;
+  height: 265px;
+  border-radius: 5px;
+  background-color: rgb(183, 196, 216);
+}
+
+
+.cards__top_img_big {
+  background-image: url(../images/auto-cards/Bitmap-big.jpg);
+}
+
+.cards__additional_img_first {
+  background-image: url(../images/auto-cards/Bitmap-1.jpg);
+}
+
+.cards__additional_img_second {
+  background-image: url(../images/auto-cards/Bitmap-2.jpg);
+}
+
+.cards__additional_img_third {
+  background-image: url(../images/auto-cards/Bitmap-3.jpg);
+}
+
+.cards__additional_img_fourth {
+  background-image: url(../images/auto-cards/Bitmap-4.jpg);
+}
+
+.cards__text-date {
+  color: #ffffff;
+}
+
+.cards__text-description {
+  color: #cf8282;
+}
